@@ -1,4 +1,4 @@
-import cssText from "data-text:~style-load.css"
+import cssText from "data-text:~/style.css"
 import { marked } from "marked"
 import type { PlasmoCSConfig, PlasmoMountShadowHost } from "plasmo"
 import { useEffect, useState } from "react"
