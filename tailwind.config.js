@@ -3,7 +3,13 @@ import tailwindScrollbar from "tailwind-scrollbar"
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{tsx,html}"],
+  mode: "jit",
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}"
+  ],
   darkMode: "media",
-  plugins: [daisyui, tailwindScrollbar]
+  plugins: [daisyui, tailwindScrollbar],
 }

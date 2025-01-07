@@ -1,0 +1,25 @@
+/* 在这里添加 react-resizable 的样式 */
+@import 'react-resizable/css/styles.css';
+
+@config "../../tailwind.config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#plasmo-inline {
+    position: absolute !important;
+    top: 55% !important;
+    right: 0 !important;
+}
+
+.tooltip-hide:hover::after,
+.tooltip-hide:hover::before {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+
+.direction-ltr {
+    direction: ltr;
+}
